@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>guruGYM</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #e15f5f;
+        }
+        header {
+            background: #333;
+            color: #fff;
+            padding: 1rem 0;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5rem;
+        }
+        nav {
+            margin-top: 1rem;
+        }
+        nav a {
+            color: #fff;
+            margin: 0 1rem;
+            text-decoration: none;
+            font-size: 1.2rem;
+        }
+        .hero {
+            text-align: center;
+            padding: 3rem 1rem;
+            background: url('gym-background.jpg') no-repeat center center/cover;
+            color: #fff;
+        }
+        .hero h2 {
+            font-size: 2rem;
+        }
+        .sections {
+            display: flex;
+            justify-content: center;
+            gap: 2rem;
+            padding: 2rem;
+        }
+        .section {
+            background: #fff;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            width: 30%;
+            text-align: center;
+            padding: 1.5rem;
+        }
+        .section h3 {
+            margin-bottom: 1rem;
+            color: #333;
+        }
+        .section p {
+            color: #666;
+        }
+        .section a {
+            display: inline-block;
+            margin-top: 1rem;
+            padding: 0.5rem 1rem;
+            background: #333;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+        footer {
+            text-align: center;
+            background: #333;
+            color: #fff;
+            padding: 1rem 0;
+            margin-top: 2rem;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>GuruGYM</h1>
+        <nav>
+            <a href="#beginner"></a>
+            <a href="#intermediate"></a>
+            <a href="#pro"></a>
+        </nav>
+    </header>
+
+    <div class="hero">
+        <h2>Your Journey to Fitness Starts Here</h2>
+        <p>Choose your fitness level and let's get started!</p>
+    </div>
+
+    <div class="sections">
+        <div class="section" id="beginner">
+            <h3>Beginner</h3>
+            <p>Start your fitness journey with simple exercises and guidance.</p>
+            <a href="#beginner">Learn More</a>
+            <a href="beginner.html">Go to Beginner Section</a>
+        </div>
+        <div class="section" id="intermediate">
+            <h3>Intermediate</h3>
+            <p>Take your training to the next level with advanced techniques.</p>
+            <a href="#intermediate">Learn More</a>
+        </div>
+        <div class="section" id="pro">
+            <h3>Pro</h3>
+            <p>Push your limits and achieve peak performance.</p>
+            <a href="#pro">Learn More</a>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 GuruGYM. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
